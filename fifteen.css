@@ -1,0 +1,39 @@
+/*fifteen.css 
+CSS file for assignment 5 in CPS 353
+Authors: Adam Princiotta, John Zhu
+*/
+
+/*Body formatting*/
+body {
+    background-color: white;
+    font-family: cursive;
+    font-size: 14px;
+    text-align: center;
+}
+    
+/*heading 1 formatting*/    
+h1 {
+    margin: 10px 0px;
+    text-align: center;
+}
+    
+/*Area holding the 15 pieces of the puzzle*/
+#puzzlearea {
+    font-size: 40pt;
+    height: 400px;
+    width: 400px;
+    margin: auto;
+    position: relative;
+}
+    
+/*Application of each of the 15 puzzle pieces*/
+.puzzlepiece {
+    background-image: url(background.jpg);
+    border: 5px solid black;
+    height: 95px;
+    line-height: 95px;
+    width: 95px;
+    text-align: center;
+    vertical-align: middle;
+    position: absolute;
+}
